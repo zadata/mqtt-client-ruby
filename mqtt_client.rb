@@ -18,8 +18,8 @@ require 'mqtt'
 
 # To find your MQTT Username and Password
 # login into your ZADATA account and click  navbar -> "Settings" -> "Credentials"
-MQTT_USERNAME       = 'YOUR-MQTT-USER'
-MQTT_PASSWORD       = 'YOUR-MQTT-PUBLISHER-PWD'
+MQTT_USERNAME       = ENV['MQTT_USER']
+MQTT_PASSWORD       = ENV['MQTT_PWD']
 MQTT_HOST           = 'mqtt.zadata.com'
 MQTT_PORT           = 1883
 KEEPALIVE_IN_SECS   = 25
