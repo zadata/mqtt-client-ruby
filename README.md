@@ -10,6 +10,13 @@ cd mqtt-client-ruby/
 bundle install
 ```
 
+If you have problems with `bundle install` then you can just run
+``` bash
+gem install mqtt
+```
+as it's the only gem used.
+
+
 To find your MQTT Username and Password
 login into your `ZADATA` account on http://ZADATA.com and click navbar -> `Settings` -> `Credentials`
 
